@@ -12,5 +12,24 @@ h1 {
 }
 
 .elements {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    width: 51%;
+    transform: translate(49%, 0%);
+    border-radius: 10px;
+}
+
+table {
+    text-align: center;
+}
+
+.element {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3% 3% 0% 3%;
+    display: inline-block;
+    cursor: pointer;
 }
